@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vmihailenco/msgpack/v4/codes"
+	"go.racktop.io/msgpack/codes"
 )
 
 const (

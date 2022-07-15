@@ -3,7 +3,7 @@ package msgpack_test
 import (
 	"fmt"
 
-	"github.com/vmihailenco/msgpack/v4"
+	"go.racktop.io/msgpack"
 )
 
 type customStruct struct {

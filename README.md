@@ -27,10 +27,15 @@ go mod init github.com/my/repo
 go get github.com/vmihailenco/msgpack/v4
 ```
 
+This Racktop repo contains a local copy of the vmihailenco/msgpack/v4 code; use the following instead:
+``` shell
+go get go.racktop.io/msgpack
+```
+
 ## Quickstart
 
 ``` go
-import "github.com/vmihailenco/msgpack/v4"
+import "go.racktop.io/msgpack"  // to use the original code: import "github.com/vmihailenco/msgpack/v4"
 
 func ExampleMarshal() {
 	type Item struct {

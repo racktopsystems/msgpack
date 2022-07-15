@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/vmihailenco/msgpack/v4/codes"
+	"go.racktop.io/msgpack/codes"
 )
 
 func encodeMapValue(e *Encoder, v reflect.Value) error {

@@ -9,7 +9,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/vmihailenco/msgpack/v4"
+	"go.racktop.io/msgpack"
 )
 
 type nameStruct struct {
