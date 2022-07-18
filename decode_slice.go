@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"go.racktop.io/msgpack/codes"
+	"go.racktop.io/msgpack/v4/codes"
 )
 
 var sliceStringPtrType = reflect.TypeOf((*[]string)(nil))

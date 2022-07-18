@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"go.racktop.io/msgpack/codes"
+	"go.racktop.io/msgpack/v4/codes"
 )
 
 func (d *Decoder) bytesLen(c codes.Code) (int, error) {

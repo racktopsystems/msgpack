@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.racktop.io/msgpack/codes"
+	"go.racktop.io/msgpack/v4/codes"
 )
 
 type queryResult struct {
