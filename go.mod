@@ -1,4 +1,4 @@
-module go.racktop.io/msgpack/v4
+module github.com/racktopsystems/msgpack/v4
 
 require (
 	github.com/golang/protobuf v1.3.4 // indirect

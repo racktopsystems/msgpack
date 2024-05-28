@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"go.racktop.io/msgpack/v4"
+	"github.com/racktopsystems/msgpack/v4"
 )
 
 func BenchmarkDiscard(b *testing.B) {

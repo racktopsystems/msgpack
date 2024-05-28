@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"sync"
 
-	"go.racktop.io/msgpack/v4/codes"
+	"github.com/racktopsystems/msgpack/v4/codes"
 )
 
 type extInfo struct {
